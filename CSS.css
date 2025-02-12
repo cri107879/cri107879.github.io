@@ -1,6 +1,7 @@
 h1 {
   color: white;
   background-color: red;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -14,8 +15,14 @@ h2 {
   text-align: center;
   color: white;
   background: red;
+  border-radius: 20px;
 }
 
 body {
   background-color: royalblue;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
