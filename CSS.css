@@ -22,7 +22,14 @@ body {
   background-color: royalblue;
 }
 
-img {
+.img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
+}
+
+.img2 {
+  width: 55px;
+  border-radius: 30px;
+  margin-left: 143px;
 }
