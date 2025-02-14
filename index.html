@@ -23,10 +23,22 @@ Este meme nació en 2007 en internet y se ha mantenido como una de las bromas m�
 
     </p>
   </p>
- <audio autoplay loop>
+ <audio id="audioFondo" autoplay loop muted>
   <source src="Rick-Roll-Sound-Effect.mp3" type="audio/mpeg">
   Tu navegador no soporta el elemento de audio.
- </audio>
+</audio>
+<button id="activarAudio">Activar Sonido</button>
+
+<script>
+  const audio = document.getElementById('audioFondo');
+  const boton = document.getElementById('activarAudio');
+
+  boton.addEventListener('click', () => {
+    audio.muted = false;
+    // Opcional: Ocultar el botón una vez activado el sonido
+    boton.style.display = 'none';
+  });
+</script>
   <img src="rickroll.gif" class="img">
 </body>
 </html>
